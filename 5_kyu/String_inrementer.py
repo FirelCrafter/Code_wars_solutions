@@ -10,3 +10,6 @@ def increment_string(strng):
         return string + str(int(number) + 1).zfill(len(number))
     else:
         return strng + '1'
+
+
+print(increment_string('foostring000334'))
